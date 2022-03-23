@@ -166,7 +166,7 @@ toolchain must be explicitly specified.
 A sample Dockerfile looks like this:
 
 ```dockerfile
-# Using the `rust-musl-builder` as base image, instead of 
+# Using the `clux/muslrust:stable` as base image, instead of 
 # the official Rust toolchain
 FROM clux/muslrust:stable AS chef
 USER root
